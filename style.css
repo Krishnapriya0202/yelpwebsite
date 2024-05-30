@@ -1,0 +1,350 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 97vh;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('https://s3-media0.fl.yelpcdn.com/educatorphoto/rMQ-LdQ3Aiq-WdMNOmQq2w/o.jpg');
+    background-position: center;
+}
+.top-nav{
+    width: 90%;
+    height: 100px;
+}
+.top-nav-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10px;
+    margin: 10px;
+}
+.top-nav-mid{
+    margin-left: 20%;
+    margin-top: -50px;
+    background-color: white;
+    color: #2d2e2f;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 40px;
+}
+.searchBarHolder{
+    position: relative;
+}
+#searchBar{
+    text-align: start;
+    border: none;
+    margin-left: -20%;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+#searchBarHolder2{
+   position: relative;
+}
+#searchBar2{
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+#searchBarHolder3{
+    position: relative;
+}
+#searchBar3{
+    text-align: end;
+    border: none;
+    margin-top: 10px;
+    line-height: 20px;
+}
+#img-btn{
+    background-color: red;
+    border: none;
+    margin-left: 1.6%;
+    /*border-radius: 0px 4px 4px 0px;*/
+    position: absolute;
+    margin-top: 1px;
+    
+}
+.top-nav-right{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    right: 0;
+    width: 100%;
+    margin-top: -35px;
+    padding-right: 24px;
+    margin-left: 150px;
+}
+.top-nav-right .login-btn .loginbtn:hover{
+    /*background: transparent;*/
+    
+    justify-content: center;
+    align-items: center;
+}
+.top-nav-right .login-btn .loginbtn{
+    text-decoration: none;
+    background: #ffffff;
+    opacity: 30%;
+    border: none;
+    position: relative;
+    width: 73px;
+    padding: 10px 16px 16px 10px;
+    border-radius: 4px;
+    margin-top: -10px;
+}
+.top-nav-right .login-btn .signup:hover{
+    justify-content: center;
+    align-items: center;
+}
+.top-nav-right .login-btn .signup{
+    text-decoration: none;
+    background: #f40d15;
+    
+    border: none;
+    position: relative;
+    
+    /*padding: 11px 16px 10px 16px;*/
+    padding: 10px 16px 16px 10px;
+    border-radius: 4px;
+}
+.yelp-btn  .yelpbtn:hover{
+    justify-content: center;
+    align-items: center;
+} 
+.yelp-btn .yelpbtn{
+    text-decoration: none;
+    border: none;
+    background: #ffffff;
+    opacity: 30%;
+    position: relative;
+    padding: 8px;
+    
+    
+}
+.top-heading{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    margin-top: 11%;
+    font-size: 4rem;
+    margin-left: -10%;
+}
+.top-location{
+    margin-left: 450px;
+    margin-top: 50px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#searchBarHolder4{
+    position: relative;
+    
+}
+#searchBar4{
+    text-align: center;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(252, 248, 248);
+    background-color: #f40d15;
+    padding: 10px;
+
+}
+.top-bottom{
+    margin-left: 20%;
+    margin-top: 20%;
+    width: 50%;
+}
+.top-bottom h4{
+     margin-top: -10px;
+}
+.second{
+    background: cover;
+    width: 100%;
+    background-color: white;
+}
+.second h1{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.second-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.second-item{
+    background-color: white;
+    /*padding: 16px;
+    border: 1px solid white;
+    border-radius: 5px;*/
+    box-shadow: 0 0 50px rgba(0, 0, 0,0.1);
+    /*min-width: 30%;
+    margin-left: -40%;*/
+    margin-left: -40%;
+}
+.second-item img{
+    max-width: 300px;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    height: 200px;
+    border-radius: 5px;
+    
+
+    
+}
+.caption{
+    margin-top: 50px;
+    color: black;
+}
+.second-item h5{
+    color: #2d2e2f;
+    margin-top: -15px;
+    margin-left: 10%;
+    
+}
+.second-item h4{
+    margin-left: 10%;
+}
+.third{
+    background: cover;
+    width: 100%;
+    background-color: white;
+}
+.third h1{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.third-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+/*.third-item .box-one{
+    margin-left: -60%;
+}*/
+.box-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+}
+.box1{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    
+    grid-gap: 50px;
+    margin-top: -100%;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    color: black;
+    font-size: 24px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0,0.1);
+}
+.box img{
+    position: relative;
+    margin-left: 80px;
+}
+.box:hover{
+    cursor: pointer;
+}
+.Restaurants{
+    margin-top: 80%;
+    font-size: 0.9rem;
+    
+}
+.Shopping{
+    margin-top: 80%;
+    font-size: 0.9rem;
+}
+.Nightlife{
+    margin-top: 80%;
+    font-size: 0.9rem;
+}
+.Active{
+    margin-top: 80%;
+    font-size: 0.9rem;
+}
+.Beauty{
+    margin-top: 80%;
+    font-size: 0.9rem;
+}
+.Automotive{
+    margin-top: 80%;
+    font-size: 0.9rem;
+}
+.Home{
+    margin-top: 80%;
+    font-size: 0.9rem;
+}
+.More{
+    margin-top: 80%;
+    font-size: 0.9rem;
+}
+.footer{
+    margin-top: 10%;
+    background-color: #f7f7f7;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+.top-footer{
+    display: flex;
+    width: 100%;
+}
+.top-footer .footer1{
+    display: flex;
+    flex-direction: column;
+}
+.top-footer .footer1 h2{
+
+}
+.top-footer .footer1 div{
+    text-align: left;
+    line-height: 25px;
+    color: black;
+}
+.top-footer .footer1 .fh1 ul{
+    color: black;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+
+}
+.footer2 div{
+    text-align: left;
+    line-height: 20px;
+    
+
+}
+.footer2 .fh2 ul{
+    
+}
